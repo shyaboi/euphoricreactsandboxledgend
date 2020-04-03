@@ -1,11 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import HelloDiv from "./components/HelloDiv";
-
-
+import React from "react";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Card from "./components/Card";
 
 function App() {
-  return <HelloDiv />;
+  return (
+    <div>
+      <Header />
+      <Navbar />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
 }
+
 export default App;
